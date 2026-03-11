@@ -1,13 +1,20 @@
 export default function Home() {
   return (
     <div className="relative min-h-screen overflow-hidden px-4 py-10 md:px-10 md:py-14">
+      {/* Banner de prueba para redeploy */}
+      <div className="relative z-20 mb-6 mx-auto max-w-6xl">
+        <div className="rounded-xl bg-gradient-to-r from-green-500 to-emerald-600 px-6 py-3 text-center shadow-lg">
+          <h1 className="text-xl font-bold text-white">Hola desde Next.js 🚀</h1>
+        </div>
+      </div>
+      
       <div className="pointer-events-none absolute inset-0 z-0">
         <div className="absolute -top-40 -right-20 h-[500px] w-[500px] rounded-full bg-gradient-to-br from-blue-400/20 via-indigo-400/15 to-purple-400/10 blur-3xl" />
         <div className="absolute -bottom-32 -left-20 h-[450px] w-[450px] rounded-full bg-gradient-to-tr from-violet-400/15 via-purple-300/10 to-fuchsia-300/10 blur-3xl" />
         <div className="absolute right-1/4 top-1/3 h-[300px] w-[300px] rounded-full bg-gradient-to-bl from-cyan-300/12 to-blue-400/8 blur-3xl animate-pulse" style={{animationDuration: '4s'}} />
         <div className="absolute left-1/3 bottom-1/4 h-[250px] w-[250px] rounded-full bg-gradient-to-tr from-indigo-300/10 to-purple-400/8 blur-2xl" />
       </div>
-
+      
       <main className="relative mx-auto grid w-full max-w-6xl gap-6 lg:grid-cols-[1fr_1.25fr] z-10">
         <section className="group relative overflow-hidden rounded-2xl border border-white/60 bg-gradient-to-br from-white/95 via-white/90 to-blue-50/80 p-10 shadow-[0_20px_60px_-15px_rgba(30,64,175,0.25),0_0_0_1px_rgba(255,255,255,0.5)] backdrop-blur-xl">
           <div className="absolute -right-12 -top-12 h-40 w-40 rounded-full bg-gradient-to-br from-blue-400/20 to-indigo-400/10 blur-2xl transition-all group-hover:scale-110" />
